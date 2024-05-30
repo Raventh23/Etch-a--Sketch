@@ -1,5 +1,18 @@
-.etchboard{
+#etchBoard{
     display: flex;
-    height: 160px;
-    width: 160px;
+    height: 500px;
+    width: 500px;
+    border: black;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+.cell{
+    display: flex;
+    border: 1px solid black;
+    flex-grow: 1;
 }

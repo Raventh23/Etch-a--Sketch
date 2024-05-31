@@ -2,6 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 #etchBoard{
     display: flex;
@@ -20,5 +21,11 @@ body{
     display: flex;
     border: 1px solid black;
     flex-grow: 1;
-    background-color: yellow;
+}
+#userButton{
+    width: 150px;
+    height: 50px;
+    color: yellow;
+    border: black solid;
+
 }

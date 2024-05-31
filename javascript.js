@@ -16,6 +16,7 @@ for (let i = 0; i < 16; i++) {
 }
 let cells = document.querySelectorAll('.cell');
 cells.forEach((cell) => {
-    cell.addEventListener("hover", () =>{
+    cell.addEventListener("mouseover",() => {
+        cell.style.backgroundColor = 'blue';
     });
 });
